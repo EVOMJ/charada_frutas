@@ -1,0 +1,8 @@
+fruta = input('charada: qual é a fruta que é amarela e que tem sementes? ')
+
+while fruta != 'maracúja' :
+     fruta = input('qual é a fruta?')
+     if fruta == 'maracúja':
+         print('vocé acertou !')
+     else:
+        print('tente novamente!')
